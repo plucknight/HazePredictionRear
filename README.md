@@ -6,9 +6,9 @@
 
 前端代码见: https://github.com/plucknight/HazePredictionFront
 
-实现效果演示：
+实现效果演示：https://www.bilibili.com/video/BV1Dp4y177Ja/?vd_source=106148829f4208e816e76f0b673079ad
 
-使用Redis只实现了查询部分功能，吞吐量提高了约25倍
+使用Redis只实现了查询部分功能，吞吐量提高了约23倍
 
 ![image](https://github.com/plucknight/HazePredictionRear/assets/96863787/ef2a59d6-9510-4fde-9541-48d1cd7a2e26)
 
