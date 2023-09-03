@@ -1,0 +1,77 @@
+spring:
+  #数据库链接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+#    url: jdbc:mysql://mysql:3306/test
+    username: root
+    password: 123
+  #文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+#  redis:
+#    host: localhost
+#    port: 6379
+#    password:
+  main:
+    banner-mode: off
+server:
+  port: 8081
+mybatis:
+  configuration:
+    #配置mybatis的日志, 指定输出到控制台
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #开启mybatis的驼峰命名自动映射开关 a_column ------> aCloumn
+    map-underscore-to-camel-case: true
+
+#spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: info
+#redis配置--jedis版
+jedis:
+  pool:
+    #redis服务器的IP
+#    host: localhost
+    host: localhost
+    #redis服务器的Port
+    port: 6379
+    #数据库密码
+    password:
+    #连接超时时间
+    timeout: 7200
+    #最大活动对象数
+    maxTotall: 100
+    #最大能够保持idel状态的对象数
+    maxIdle: 100
+    #最小能够保持idel状态的对象数
+    minIdle: 50
+    #当池内没有返回对象时，最大等待时间
+    maxWaitMillis: 10000
+    #当调用borrow Object方法时，是否进行有效性检查
+    testOnBorrow: true
+    #当调用return Object方法时，是否进行有效性检查
+    testOnReturn: true
+    #“空闲链接”检测线程，检测的周期，毫秒数。如果为负值，表示不运行“检测线程”。默认为-1.
+    timeBetweenEvictionRunsMillis: 30000
+    #向调用者输出“链接”对象时，是否检测它的空闲超时；
+    testWhileIdle: true
+    # 对于“空闲链接”检测线程而言，每次检测的链接资源的个数。默认为3.
+    numTestsPerEvictionRun: 50
+mybatis-plus:
+  global-config:
+    banner: off
+  configuration:
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+#---
+#spring:
+#  profiles: dev
+#server:
+#  port: 8081
+#---
+#spring:
+#  profiles: pro
+#server:
+#  port: 8089

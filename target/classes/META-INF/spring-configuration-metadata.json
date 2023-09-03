@@ -1,0 +1,88 @@
+{
+  "groups": [
+    {
+      "name": "jedis.pool",
+      "type": "com.example.config.JedisProperties",
+      "sourceType": "com.example.config.JedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jedis.pool.host",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.JedisProperties"
+    },
+    {
+      "name": "jedis.pool.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.max-totall",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.max-wait-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.JedisProperties"
+    },
+    {
+      "name": "jedis.pool.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jedis.pool.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jedis.pool.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jedis.pool.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jedis.pool.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.JedisProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
