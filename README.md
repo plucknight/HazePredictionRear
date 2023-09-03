@@ -4,7 +4,7 @@
 
 为了快速构建，mysql表中数据已放到data文件夹中
 
-前端代码见
+前端代码见: https://github.com/plucknight/HazePredictionFront
 
 实现效果演示：
 
