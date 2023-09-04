@@ -39,7 +39,6 @@ example
 │   └── LoginCheckInterceptor.java
 ├── mapper
 │   ├── AdminMapper.java
-│   ├── ShopMapper.java
 │   ├── pastMonthMapper.java
 │   ├── preweekMapper.java
 │   ├── realtimeMapper.java
@@ -49,7 +48,6 @@ example
 │   ├── Admin.java
 │   ├── OperateLog.java
 │   ├── Result.java
-│   ├── Shop.java
 │   ├── pastMonth.java
 │   ├── preweek.java
 │   ├── realtime.java
@@ -58,7 +56,6 @@ example
 ├── service
 │   ├── AdminService.java
 │   ├── ArticleService.java
-│   ├── IShopService.java
 │   ├── impl
 │   │   ├── AdminServiceImpl.java
 │   │   ├── ArticleServiceImpl.java
